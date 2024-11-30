@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background: none;
+    overflow-x: hidden;
+}
+.background{
+    background-image: url(./../Images/vertical-gray-hd-color-background-image.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+}
+
+.result{
+    text-shadow: -1px -1px white;
+    transform: scale(1.5);
+    text-wrap: wrap;
+}
